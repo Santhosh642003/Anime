@@ -1,0 +1,197 @@
+
+body {
+  background-color: #131316;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  min-height: 100vh; /* Ensure the page takes at least the full height of the viewport */
+}
+
+.title-img{
+  background-color: #90AFC5;
+  height: 100vh;
+}
+
+.title {
+  color: black;
+  font-size: 120px;
+  font-family:poppins;
+  text-align: center;
+  padding-top: 20%;
+}
+
+
+.about-head{
+  color: white;
+  font-size: 4vh;
+  text-align: center;
+}
+
+.about-info{
+  color: white;
+  font-size: 4vh;
+  margin-top: 10%;
+  margin-left: 40%;
+}
+.about-info1{
+  color: white;
+  font-size: 4vh;
+  margin-top: 5%;
+  margin-right: 40%;
+}
+.about-info2{
+  color: white;
+  font-size: 4vh;
+  margin-top: 5%;
+  margin-left: 40%;
+}
+.about-info3{
+  color: white;
+  font-size: 4vh;
+  margin-top: 5%;
+  margin-right: 40%;
+}
+.summary_info{
+  background-color: #131316;
+  ;
+  display: flex;
+  align-items:flex;
+}
+
+.Summary{
+  color: white;
+  font-size: 40px;
+  font-family: poppins;
+  text-align: center;
+}
+.contain{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Adjust as needed */
+  justify-content: space-between;/* Adjust as needed */
+}
+
+.anime_section{
+  background-color:  #131316;
+  ;
+}
+.section{
+  color: white;
+  text-align: center;
+  font-family: poppins;
+  font-size: 55px;
+  padding-top: 5%;
+}
+
+
+.card{
+  width: 320px;
+  height: 500px;
+  border:2px solid rgba(150,150,150,0.2);
+  background:-webkit-linear-gradient(top,rgba(255,255,255,0.1),transparent);
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+  margin: 50px auto;
+  text-align: center;
+  line-height:400px;
+  box-shadow: inset 5px 5px 20px rgba(255,255,255,0.1);
+  animation: shimmy 6s ease-in-out infinite;
+  transition: transform 1.25s cubic-bezier(0.215, 0.61, 0.355, 1), box-shadow 1.25s cubic-bezier(0.215, 0.61, 0.355, 1), box-shadow 1.25s cubic-bezier(0.215, 0.61, 0.355, 1),
+}
+
+.card.hovered {
+  transform: scale(1.1);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+p {
+  margin-top: 0;
+  font-family: Oswald, sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.shine {
+  width: 1000px;
+  height: 100px;
+  margin-left: -100px;
+  transform: rotate(30deg);
+  background: -webkit-linear-gradient(top, transparent, rgba(200, 200, 200, 0.1), transparent);
+  position: absolute;
+  animation: shine 6s ease-in-out infinite;
+}
+
+@keyframes shine {
+  0%,
+  100% {
+    margin-top: -100px;
+  }
+  50% {
+    margin-top: 800px;
+  }
+}
+
+.shadow {
+  width: 275px;
+  height: 5px;
+  background: rgba(50, 50, 50, 0.1);
+  margin: -15px auto 0 auto;
+  box-shadow: 0px 0px 20px rgba(50, 50, 50, 0.1);
+  animation: angle 6s ease-in-out infinite;
+}
+
+.anime-name {
+  color: white;
+  font-size: 18px;
+  text-align: bottom;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.final-section {
+  height: 100vh;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.video {
+  max-width: 100%;
+  border-radius: 20px;
+}
+.Marin {
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+  font-family: Poppins;
+}
+
+.anime-info{
+  color: white;
+  font-size: 4vh;
+  text-align: center;
+}
+
+.idk {
+  padding-bottom: 10%;
+  color: white;
+  text-align: center;
+  padding-top: 40vh;
+}
