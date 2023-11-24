@@ -87,12 +87,12 @@ function App() {
       <div className='main'>
       <div className='title-img'>
       <p className='title'>
-      ABOUT ME AND MY WAY OF ANIME
+      ANIME IS THE WAY
       </p>
       </div>
 
         <div className='anime_section'>
-          <p className='section'>My Anime</p>
+          <p className='section'>MY ANIME</p>
           <div className='anime-info'>I have seen so many animes over the years and loved them all. But some animes have stuck with me even after watching many anime. Here are the few anime that I liked very much</div>
           <div className='contain'>
             {animeData.map((anime) => (

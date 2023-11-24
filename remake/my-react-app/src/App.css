@@ -12,16 +12,34 @@ body {
 }
 
 .title-img{
-  background-color: #90AFC5;
-  height: 100vh;
+  background-color: #ffffff;
+  height: 100dvh;
 }
 
 .title {
   color: black;
-  font-size: 120px;
-  font-family:poppins;
+  font-size: 10vw;
+  line-height: 8vw;
+  font-family: 'Red Hat Display', sans-serif;
+  margin: 0;
+  font-weight: 900;
+  background: url(https://wallpapercave.com/wp/wp5342498.jpg);
+  background-size: 10%;
+  background-position: 50% 50%;
+  background-clip: text;
+  color: rgba(0,0,0,0.08);
+  animation: zoomout 10s ease 500ms forwards;
   text-align: center;
   padding-top: 20%;
+}
+
+@keyframes zoomout {
+  from {
+    background-size: 40%;
+  }
+  to {
+    background-size: 20%;
+  }
 }
 
 
@@ -31,33 +49,9 @@ body {
   text-align: center;
 }
 
-.about-info{
-  color: white;
-  font-size: 4vh;
-  margin-top: 10%;
-  margin-left: 40%;
-}
-.about-info1{
-  color: white;
-  font-size: 4vh;
-  margin-top: 5%;
-  margin-right: 40%;
-}
-.about-info2{
-  color: white;
-  font-size: 4vh;
-  margin-top: 5%;
-  margin-left: 40%;
-}
-.about-info3{
-  color: white;
-  font-size: 4vh;
-  margin-top: 5%;
-  margin-right: 40%;
-}
+
 .summary_info{
   background-color: #131316;
-  ;
   display: flex;
   align-items:flex;
 }
@@ -75,13 +69,13 @@ body {
 }
 
 .anime_section{
-  background-color:  #131316;
-  ;
+  background-color: #131316;
 }
 .section{
   color: white;
   text-align: center;
-  font-family: poppins;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
   font-size: 55px;
   padding-top: 5%;
 }
@@ -187,6 +181,9 @@ p {
   color: white;
   font-size: 4vh;
   text-align: center;
+  margin: 0;
+  font-weight: 400;
+  font-family: 'Red Hat Display', sans-serif;
 }
 
 .idk {
